@@ -27,7 +27,7 @@ questions.forEach((question, index) => {
         answers[index].classList.toggle('answer-close')
         
 
-        if (images[index].src.contains(plusImage)) {
+        if (images[index].src.match(plusImage)) {
             images[index].src = minusImage;
         } else {
             images[index].src = plusImage;
