@@ -33,6 +33,12 @@ body {
     padding: 0px 30px 40px 30px;
 }
 
+@media screen and (max-width: 650px) {
+    .main-card {
+        width: 220px;
+    }
+}
+
 
 .faq-container {
     display: flex;
@@ -54,18 +60,21 @@ body {
     color: hsl(292, 42%, 14%);
 }
 
-#question {
+.question {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
 }
 
-#queston > h4 {
+.question > p {
     font-size: 16px;
     color: hsl(292, 42%, 14%);
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
 }
 
-#question > h4:hover {
+.question > p:hover {
     color: hsl(292, 16%, 49%);
 }
 
@@ -74,10 +83,6 @@ body {
     color: hsl(292, 42%, 14%);
 }
 
-h3 {
-    font-size: 16px;
-    padding: 10px 0px 10px 0px;
-}
 
 .answer-close {
     display: none;

@@ -1,10 +1,10 @@
 
 
-const questions = document.querySelectorAll('#question')
+const questions = document.querySelectorAll('.question')
 
-const answers = document.querySelectorAll('#answer')
+const answers = document.querySelectorAll('.answer')
 
-const images = document.querySelectorAll('#questionImage')
+const images = document.querySelectorAll('.questionImage')
 
 
 const plusImage = './assets/images/icon-plus.svg';
